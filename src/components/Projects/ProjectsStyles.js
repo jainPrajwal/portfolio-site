@@ -71,7 +71,7 @@ export const CardInfo = styled.p`
   width: 100%;
   padding-inline: 3rem;
   color: #e4e6e7;
-  font-style: 2rem;
+  font-size: 2rem;
   line-height: 24px;
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {

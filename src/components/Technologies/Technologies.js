@@ -6,6 +6,7 @@ import {
   DiUikit,
   DiZend,
 } from "react-icons/di";
+import { SiVisualstudiocode } from "react-icons/si";
 import {
   Section,
   SectionDivider,
@@ -35,7 +36,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front End</ListTitle>
           <ListParagraph>
-            Worked with <br /> React, Redux Toolkit, Typescript
+            React, Redux Toolkit, Typescript
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -47,7 +48,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
-            Worked with <br /> Storybook, Chakra UI, Modular CSS
+            Storybook, Chakra UI, Modular CSS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -59,7 +60,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back End</ListTitle>
           <ListParagraph>
-            Worked with <br /> Node, Express and MongoDB
+            Node, Express and MongoDB
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -71,20 +72,20 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Version Control</ListTitle>
           <ListParagraph>
-            Worked with <br />
+           
             Git, Github
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <span style={{ marginBlock: `1rem` }}>
-          <AiFillGithub size={`3rem`} />
+          <SiVisualstudiocode size={`3rem`} />
         </span>
 
         <ListContainer>
           <ListTitle>Tools</ListTitle>
           <ListParagraph>
-            Worked with <br />
+           
             VS Code Editor, Github Actions
           </ListParagraph>
         </ListContainer>
