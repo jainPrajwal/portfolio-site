@@ -20,7 +20,7 @@ const Hero = (props) => (
       </SectionText>
       <Button
         onClick={() => {
-          return (window.location = `http://localhost:3000/#projects`);
+          return (window.location = `https://jainprajwal.netlify.app/#projects`);
         }}
       >
         Proof of Work
