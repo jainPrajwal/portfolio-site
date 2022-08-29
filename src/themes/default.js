@@ -3,6 +3,7 @@ export default {
   fonts: {
     title: "Merriweather, serif",
     main: "Merriweather, serif",
+    
   },
   // Colors for layout
   colors: {

@@ -9,20 +9,22 @@ import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
 
 const Hero = (props) => (
-  <Section row nopadding>
+  <Section row nopadding style={{ maxWidth: `100%` }}>
     <LeftSection>
       <SectionTitle main center>
-        Hii, <br />
-        This is Prajwal..!
+        <div style={{ marginBlock: `2rem` }}> Hii,</div> 
+        <div style={{ marginBlock: `2rem` }}>This is Prajwal..!</div>
       </SectionTitle>
       <SectionText>
         I can help you build the front end of your Web App..!
       </SectionText>
       <Button
-      onClick={() => {
-        return window.location = `http://localhost:3000/#projects`
-      }}
-      >Proof of Work</Button>
+        onClick={() => {
+          return (window.location = `http://localhost:3000/#projects`);
+        }}
+      >
+        Proof of Work
+      </Button>
     </LeftSection>
   </Section>
 );
